@@ -1,25 +1,25 @@
 version: '3.8'
 services:
   movies:
-    image: sravanthimeka/movies:latest
+    image: chandanasri123/movies:latest
     ports:
       - "81:80"
     deploy:
       replicas: 3
   train:
-    image: sravanthimeka/train:latest
+    image: chandanasri123/train:latest
     ports:
       - "82:80"
     deploy:
       replicas: 3
   dth:
-    image: sravanthimeka/dth:latest
+    image: chandanasri123/dth:latest
     ports:
       - "83:80"
     deploy:
       replicas: 3
   recharge:
-    image: sravanthimeka/recharge:latest
+    image: chandanasri123/recharge:latest
     ports:
       - "84:80"
     deploy:
